@@ -1,0 +1,64 @@
+/* Animations: 
+  name | duration | delay | timingFn | iterationCount | direction */
+
+.wrapper {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: outline 1.2s ease-in-out forwards,
+    fillWrapper 0.1s 1.2s ease-in-out forwards,
+    pulse 1.5s 1.3s ease-in-out backwards;
+}
+
+.star {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: outline 1.2s ease-in-out forwards,
+    fillStar 0.1s 1.2s ease-in-out forwards,
+    pulse 1.5s 1.3s ease-in-out backwards;
+}
+
+@keyframes outline {
+  to {
+    stroke-dashoffset: 0;
+  }
+  0% {
+    stroke: #003358;
+  }
+  100% {
+    stroke: #fff;
+  }
+}
+
+@keyframes fillWrapper {
+  to {
+    fill: #fff;
+  }
+}
+
+@keyframes fillStar {
+  to {
+    fill: #003358;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    filter: drop-shadow(0px 0px 12px #fff);
+  }
+  25% {
+    filter: drop-shadow(0px 0px 0px #aee4f4);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 12px #fff);
+  }
+  75% {
+    filter: drop-shadow(0px 0px 12px #aee4f4);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px #fff);
+  }
+}
