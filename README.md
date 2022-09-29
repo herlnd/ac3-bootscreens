@@ -1,2 +1,3 @@
-# ac3-bootscreens
-Tribute to the Ace Combat 3 boot screens
+# Ace Combat 3 Boot Screens
+
+Tribute to the Ace Combat 3 boot screens.
