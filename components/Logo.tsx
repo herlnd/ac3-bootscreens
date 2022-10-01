@@ -1,17 +1,39 @@
-import GeneralResource from './CompaniesLogos/GeneralResource';
 import { useEffect } from 'react';
 
-const Logo = () => {
+type Props = {
+  company: string;
+  children: JSX.Element;
+};
+
+const Logo: React.FC<Props> = ({ company, children }) => {
+  let bootSound = '';
+  switch (company) {
+    case 'general resource':
+      bootSound = '/general.mp3';
+      break;
+    case 'neucom':
+      bootSound = '/neucom.mp3';
+      break;
+    case 'upeo':
+      bootSound = '/upeo.mp3';
+      break;
+    case 'uroboros':
+      bootSound = '/ouroboros.mp3';
+      break;
+    default:
+      break;
+  }
+
   const loadHandler = () => {
-    const audio = new Audio('/general.mp3');
+    const audio = new Audio(bootSound);
     audio.play();
   };
 
   useEffect(() => {
     loadHandler();
-  }, []);
+  });
 
-  return <GeneralResource />;
+  return <>{children}</>;
 };
 
 export default Logo;

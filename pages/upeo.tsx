@@ -1,11 +1,15 @@
 import Link from 'next/link';
+import Logo from '../components/Logo';
+import GeneralResource from '../components/CompaniesLogos/GeneralResource/GeneralResource';
 
 export default function Home() {
   return (
     <div className='bg-[#d1d1d1] w-screen h-screen flex'>
       <section className='w-1/2 h-screen bg-[#818180] flex flex-col justify-center items-center'>
         <div className='w-[380px] h-auto flex justify-center items-center'>
-          UPEO
+          <Logo company='upeo'>
+            <GeneralResource />
+          </Logo>
         </div>
       </section>
       <section className='w-1/2 flex flex-col justify-center items-center'>
