@@ -1,24 +1,21 @@
-import Link from 'next/link';
+import Layout from '../components/Layout/Layout';
 import Logo from '../components/Logo';
 import GeneralResource from '../components/CompaniesLogos/GeneralResource/GeneralResource';
 
 export default function Home() {
   return (
-    <div className='bg-[#d1d1d1] w-screen h-screen flex'>
-      <section className='w-1/2 h-screen bg-[#818180] flex flex-col justify-center items-center'>
-        <div className='w-[380px] h-auto flex justify-center items-center'>
-          <Logo company='upeo'>
-            <GeneralResource />
-          </Logo>
-        </div>
-      </section>
-      <section className='w-1/2 flex flex-col justify-center items-center'>
-        <Link href='/'>
-          <button className='bg-[#2a2a2a] rounded-lg font-bold italic text-white p-2'>
-            Logout
-          </button>
-        </Link>
-      </section>
-    </div>
+    <Layout>
+      <>
+        <div className='bg-[#004765] col-start-1'></div>
+        <section className='bg-[#004765] col-start-2 col-span-3 flex flex-col justify-start items-center'>
+          <div className='w-3/4 pt-10'>
+            <Logo company='upeo'>
+              <GeneralResource />
+            </Logo>
+          </div>
+        </section>
+        <div className='bg-[#004765] col-start-5'></div>
+      </>
+    </Layout>
   );
 }

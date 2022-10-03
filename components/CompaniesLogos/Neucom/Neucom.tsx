@@ -14,8 +14,12 @@ const Neucom = () => {
     >
       <defs>
         <linearGradient id='big-n-gradient' gradientTransform='rotate(0)'>
-          <stop offset='5%' stop-color='red' />
-          <stop offset='95%' stop-color='orange' />
+          <stop offset='5%' stop-color='#FF0A1C' />
+          <stop offset='95%' stop-color='#FF531C' />
+        </linearGradient>
+        <linearGradient id='floor-gradient' gradientTransform='rotate(0)'>
+          <stop offset='5%' stop-color='#FF191C' />
+          <stop offset='95%' stop-color='#FF6F1C' />
         </linearGradient>
       </defs>
 
@@ -62,7 +66,7 @@ const Neucom = () => {
       <path
         id='floor'
         className={styles.floor}
-        fill="url('#big-n-gradient')"
+        fill="url('#floor-gradient')"
         d='M120.8,328.5c3-2.5,5.5-4.7,7.8-6.7c47.5,30.3,100.1,36.2,154.4,34c34-1.4,67.1-7.4,98-22.4
 	c8-3.9,15.8-8.7,22.7-14.3c24.7-20,24.6-45.7,0-66c-19.6-16.2-43.1-23.8-67.2-29.7c-0.6-0.2-1.3-0.3-2.4-0.5
 	c0.3-3.8,0.5-7.5,0.9-12.5c14.3,1.7,28.4,2.9,42.2,5.2c33.1,5.5,65.2,14.3,94,32.3c14.1,8.8,26.7,19.5,33.1,35.4

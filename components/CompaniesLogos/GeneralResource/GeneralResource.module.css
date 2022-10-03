@@ -8,8 +8,10 @@
   stroke-linejoin: round;
   animation: outline 1.2s ease-in-out forwards,
     fillWrapper 0.1s 1.2s ease-in-out forwards,
-    pulse 1.5s 1.3s ease-in-out backwards;
+    pulse 1.5s 1.3s ease-in-out forwards;
 }
+
+/* TODO: fix 'inside g' svg path */
 
 .star {
   stroke-dasharray: 2000;
@@ -18,7 +20,7 @@
   stroke-linejoin: round;
   animation: outline 1.2s ease-in-out forwards,
     fillStar 0.1s 1.2s ease-in-out forwards,
-    pulse 1.5s 1.3s ease-in-out backwards;
+    pulse 1.5s 1.3s ease-in-out forwards;
 }
 
 @keyframes outline {
@@ -26,7 +28,7 @@
     stroke-dashoffset: 0;
   }
   0% {
-    stroke: #003358;
+    stroke: #004765;
   }
   100% {
     stroke: #fff;
@@ -41,7 +43,7 @@
 
 @keyframes fillStar {
   to {
-    fill: #003358;
+    fill: #004765;
   }
 }
 
