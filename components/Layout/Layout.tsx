@@ -1,4 +1,4 @@
-import DataSwallow from '../OSInfo/DataSwallow';
+import DataSwallow from '../OSInfo/OsInfo';
 
 type Props = {
   children: JSX.Element;

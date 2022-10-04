@@ -1,5 +1,6 @@
-import ProgressBar from './ProgressBar';
+import ProgressBar from './ProgressBar/ProgressBar';
 import Link from 'next/link';
+import DataSwallowLogo from './DataSwallowLogo/DataSwallowLogo';
 
 const DataSwallow = () => {
   return (
@@ -10,6 +11,7 @@ const DataSwallow = () => {
           Logout
         </button>
       </Link>
+      <DataSwallowLogo />
       <ProgressBar />
       <div className='text-sm'>データースワロー40 を接続中です。</div>
     </main>
