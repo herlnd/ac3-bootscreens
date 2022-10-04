@@ -2,16 +2,7 @@ import styles from './Neucom.module.css';
 
 const Neucom = () => {
   return (
-    <svg
-      version='1.1'
-      id='Neucom_Logo'
-      xmlns='http://www.w3.org/2000/svg'
-      xmlnsXlink='http://www.w3.org/1999/xlink'
-      x='0px'
-      y='0px'
-      viewBox='0 0 560 500'
-      xmlSpace='preserve'
-    >
+    <svg viewBox='0 0 560 500' xmlSpace='preserve'>
       <defs>
         <linearGradient id='big-n-gradient' gradientTransform='rotate(0)'>
           <stop offset='5%' stop-color='#FF0A1C' />

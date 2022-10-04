@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  width: 80%;
+  height: 1rem;
+  background-color: #626262;
+  border: 0.25rem solid #000;
+  animation: fixBorders 0.1s 2s ease-in-out forwards;
+}
+
+.bar {
+  position: absolute;
+  height: 0.5rem;
+  background-color: #fff;
+  border-right: 0.25rem solid #000;
+  animation: completeBar 2s ease-in-out forwards;
+}
+
+@keyframes completeBar {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fixBorders {
+  from {
+    border: 0.25rem solid #000;
+  }
+  to {
+    border: 0.25rem solid #000;
+    border-right: 0rem;
+  }
+}
