@@ -1,0 +1,19 @@
+/* .circles {
+  animation: appear 0.5s ease-in-out forwards;
+} */
+
+.st0 {
+  fill: #ffffff;
+}
+.st1 {
+  fill: #020202;
+}
+
+/* @keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
