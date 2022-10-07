@@ -5,12 +5,12 @@ const Neucom = () => {
     <svg viewBox='0 0 560 500' xmlSpace='preserve'>
       <defs>
         <linearGradient id='big-n-gradient' gradientTransform='rotate(0)'>
-          <stop offset='5%' stop-color='#FF0A1C' />
-          <stop offset='95%' stop-color='#FF531C' />
+          <stop offset='5%' stopColor='#FF0A1C' />
+          <stop offset='95%' stopColor='#FF531C' />
         </linearGradient>
         <linearGradient id='floor-gradient' gradientTransform='rotate(0)'>
-          <stop offset='5%' stop-color='#FF191C' />
-          <stop offset='95%' stop-color='#FF6F1C' />
+          <stop offset='5%' stopColor='#FF191C' />
+          <stop offset='95%' stopColor='#FF6F1C' />
         </linearGradient>
       </defs>
 
