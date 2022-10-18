@@ -1,9 +1,19 @@
 import styles from './ProgressBar.module.css';
 
-const ProgressBar = () => {
+interface companyType {
+  company: string;
+}
+
+const ProgressBar = ({ company }: companyType) => {
   return (
-    <div className={styles.container}>
-      <div className={styles.bar}></div>
+    <div
+      className={
+        company === 'ouroboros' ? styles.containerOuroboros : styles.container
+      }
+    >
+      <div
+        className={company === 'ouroboros' ? styles.barOuroboros : styles.bar}
+      ></div>
     </div>
   );
 };

@@ -33,6 +33,15 @@ export default function Home() {
               </button>
             </Link>
           </div>
+
+          <div className='flex flex-col items-center gap-2.5'>
+            <p className='text-[#2a2a2a] font-bold text-2xl'>Ouroboros</p>
+            <Link href='/ouroboros'>
+              <button className='bg-[#2a2a2a] text-white rounded-lg w-20 py-2 font-bold'>
+                Login
+              </button>
+            </Link>
+          </div>
         </section>
       </main>
     </div>

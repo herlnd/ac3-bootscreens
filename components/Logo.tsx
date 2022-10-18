@@ -17,7 +17,7 @@ const Logo: React.FC<Props> = ({ company, children }) => {
     case 'upeo':
       bootSound = '/upeo.mp3';
       break;
-    case 'uroboros':
+    case 'ouroboros':
       bootSound = '/ouroboros.mp3';
       break;
     default:

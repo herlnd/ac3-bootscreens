@@ -2,7 +2,11 @@ import PluginsIcons from './PluginsIcons/PluginsIcons';
 import DataSwallowLogo from './DataSwallowLogo/DataSwallowLogo';
 import ProgressBar from './ProgressBar/ProgressBar';
 
-const WebViewer = () => {
+interface companyType {
+  company: string;
+}
+
+const WebViewer = ({ company }: companyType) => {
   return (
     <section className='bg-[#F0F0E0] col-start-4 col-span-2 h-screen grid grid-rows-5 grid-cols-5 '>
       <div className='col-start-4 col-end-5 row-start-1 row-end-4 flex justify-end'>
@@ -21,7 +25,7 @@ const WebViewer = () => {
         <div className='w-9/12 flex flex-col gap-4'>
           <DataSwallowLogo />
           <div>
-            <ProgressBar />
+            <ProgressBar company={company} />
             <p className='text-sm font-semibold p-1 leading-3'>
               データースワロー40 を接続中です。
             </p>
