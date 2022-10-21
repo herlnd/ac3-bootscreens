@@ -1,6 +1,7 @@
 import Layout from '../components/Layout/Layout';
 import Logo from '../components/Logo';
 import Ouroboros from '../components/CompaniesLogos/Ouroboros/Ouroboros';
+import OuroborosInfo from '../components/CompaniesLogos/Ouroboros/systemInfo/OuroborosInfo';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
               <Ouroboros />
             </Logo>
           </div>
+          <OuroborosInfo />
         </section>
         <div className='bg-[#000] col-start-5'></div>
       </>
