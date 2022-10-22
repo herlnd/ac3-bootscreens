@@ -1,19 +1,21 @@
 .bigBars,
 .smallBars,
 .squares {
-  fill: white;
+  fill: #5c5c5c;
 }
 
 .bigBars2,
 .smallBars2,
 .squares2 {
-  animation: translate1 2.2s 2s infinite;
+  fill: #d2dcd2;
+  animation: translate1 2.2s 3.5s infinite;
 }
 
 .bigBars3,
 .smallBars3,
 .squares3 {
-  animation: translate2 2.2s 2s infinite;
+  fill: #002d49;
+  animation: translate2 2.2s 3.5s infinite;
 }
 
 @keyframes translate1 {

@@ -1,14 +1,27 @@
 /* Animations: 
   name | duration | delay | timingFn | iterationCount | direction */
 
-.generalResource {
+.generalLogo {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   stroke-linecap: round;
   stroke-linejoin: round;
-  animation: outline 1.3s ease-in-out forwards,
-    fillBackground 0.1s 1.3s ease-in-out forwards,
-    pulse 1.3s 1.4s ease-in-out forwards, fillWrapper 0.1s 2.8s;
+  animation: outline 2s ease-in-out forwards,
+    fillBackground 0.1s 2s ease-in-out forwards,
+    pulse 1.4s 2.1s ease-in-out forwards, fillWrapper 0.1s 2.8s;
+}
+
+.text {
+  fill: white;
+  stroke: 1px solid white;
+  opacity: 0;
+  animation: appear 1.3s 2.4s ease-in-out forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes outline {

@@ -10,23 +10,23 @@
 .serpent,
 .text,
 .wrapper {
-  animation: deform 2.2s 2s infinite;
+  animation: deform 2.2s 3.5s infinite;
 }
 
 .serpent2,
 .text2,
 .wrapper2 {
-  fill: #fff;
+  fill: #d2dcd2;
   transform: scale();
-  animation: translate1 2.2s 2s infinite;
+  animation: translate1 2.2s 3.5s infinite;
 }
 
 .serpent3,
 .text3,
 .wrapper3 {
-  fill: #ccc;
+  fill: #002d49;
   transform: scale();
-  animation: translate2 2.2s 2s infinite;
+  animation: translate2 2.2s 3.5s infinite;
 }
 
 @keyframes deform {

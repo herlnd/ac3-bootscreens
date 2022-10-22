@@ -6,17 +6,15 @@
   fill: white;
 }
 
-.wrapper {
+.wrapper,
+.text {
   opacity: 0;
-  animation: appear 1.2s 1.2s ease-in-out forwards;
+  animation: appear 1.4s 2.2s ease-in-out forwards;
 }
 
 .floor {
   animation: bounceX 1.2s 0.1s ease-in-out forwards;
 }
-
-/* maybe use a filter for svg
-also fix the path so when it is filled it can turn white (outlines of the wrapper -negative-) */
 
 @keyframes bounceY {
   0%,

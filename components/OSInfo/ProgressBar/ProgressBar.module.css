@@ -5,10 +5,10 @@
   height: 1rem;
   background-color: #626262;
   border: 0.25rem solid #000;
-  animation: fixBorders 0.1s 2s ease-in-out forwards;
+  animation: fixBorders 0.1s 3s ease-in-out forwards;
 }
 .containerOuroboros {
-  animation: fixBordersOuroboros 0.1s 2s ease-in-out forwards;
+  animation: fixBordersOuroboros 0.1s 3s ease-in-out forwards;
 }
 
 .bar,
@@ -17,11 +17,11 @@
   height: 0.5rem;
   background-color: #fff;
   border-right: 0.25rem solid #000;
-  animation: completeBar 2s ease-in-out forwards;
+  animation: completeBar 3s ease-in-out forwards;
 }
 
 .barOuroboros {
-  animation: incompleteBar 2s ease-in-out forwards;
+  animation: incompleteBar 3s ease-in-out forwards;
 }
 
 @keyframes completeBar {
