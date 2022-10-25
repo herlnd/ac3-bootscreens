@@ -8,8 +8,8 @@ export default function Home() {
     <Layout company='ouroboros'>
       <>
         <div className='bg-[#000] col-start-1'></div>
-        <section className='bg-[#000] col-start-2 col-span-3 flex flex-col justify-start items-center'>
-          <div className='w-3/4 pt-10'>
+        <section className='bg-[#000] col-start-2 col-span-3 flex flex-col justify-around items-center'>
+          <div className='w-2/3'>
             <Logo company='ouroboros'>
               <Ouroboros />
             </Logo>

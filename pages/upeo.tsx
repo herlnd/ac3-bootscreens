@@ -6,15 +6,22 @@ export default function Home() {
   return (
     <Layout>
       <>
-        <div className='bg-[#A49277] col-start-1'></div>
-        <section className='bg-[#A49277] col-start-2 col-span-3 flex flex-col justify-start items-center'>
-          <div className='w-3/4 pt-10'>
-            <Logo company='upeo'>
-              <Upeo />
-            </Logo>
+        <section className='bg-[#A49277] col-start-1 col-end-6 flex flex-col justify-center pb-20 items-center'>
+          <div className='w-3/4 flex items-center justify-around'>
+            <div className='w-5/12 flex items-center justify-center'>
+              <Logo company='upeo'>
+                <Upeo />
+              </Logo>
+            </div>
+            <div className='pt-14 w-2/4 text-white leading-5 text-lg tracking-widest flex flex-col justify-center items-start'>
+              <p>RESTARTING OS VER. 3.2.2</p>
+              <p>User ID confirmed</p>
+              <p>DATA SWALLOW</p>
+              <p>is for registered use only.</p>
+            </div>
           </div>
+          <div className='bg-[#646464] w-full h-8'></div>
         </section>
-        <div className='bg-[#A49277] col-start-5'></div>
       </>
     </Layout>
   );
