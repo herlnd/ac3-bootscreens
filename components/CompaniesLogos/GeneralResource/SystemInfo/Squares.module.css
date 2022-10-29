@@ -1,0 +1,25 @@
+.squares {
+  fill: #bffff8;
+  animation: glow 3.5s ease-in-out forwards;
+}
+
+@keyframes glow {
+  10% {
+    fill: #327997;
+  }
+  20% {
+    fill: #bffff8;
+  }
+  30% {
+    fill: #327997;
+  }
+  50% {
+    fill: #bffff8;
+  }
+  75% {
+    fill: #327997;
+  }
+  100% {
+    fill: #bffff8;
+  }
+}

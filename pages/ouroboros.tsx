@@ -1,14 +1,14 @@
 import Layout from '../components/Layout/Layout';
 import Logo from '../components/Logo';
 import Ouroboros from '../components/CompaniesLogos/Ouroboros/Ouroboros';
-import OuroborosInfo from '../components/CompaniesLogos/Ouroboros/systemInfo/OuroborosInfo';
+import OuroborosInfo from '../components/CompaniesLogos/Ouroboros/SystemInfo/OuroborosInfo';
 
 export default function Home() {
   return (
     <Layout company='ouroboros'>
       <>
-        <div className='bg-[#000] col-start-1'></div>
-        <section className='bg-[#000] col-start-2 col-span-3 flex flex-col justify-around items-center'>
+        <div className='bg-[#000] row-start-1 row-end-6 col-start-1'></div>
+        <section className='bg-[#000] row-start-1 row-end-6 col-start-2 col-span-3 flex flex-col justify-around items-center'>
           <div className='w-2/3'>
             <Logo company='ouroboros'>
               <Ouroboros />
@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <OuroborosInfo />
         </section>
-        <div className='bg-[#000] col-start-5'></div>
+        <div className='bg-[#000] row-start-1 row-end-6 col-start-5'></div>
       </>
     </Layout>
   );

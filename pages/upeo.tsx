@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <>
-        <section className='bg-[#A49277] col-start-1 col-end-6 flex flex-col justify-center pb-20 items-center'>
+        <section className='bg-[#A49277] row-start-1 row-end-6 col-start-1 col-end-6 flex flex-col justify-center pb-20 items-center'>
           <div className='w-3/4 flex items-center justify-around'>
             <div className='w-5/12 flex items-center justify-center'>
               <Logo company='upeo'>
