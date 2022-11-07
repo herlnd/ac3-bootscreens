@@ -8,8 +8,8 @@ type Props = {
 
 const Layout: React.FC<Props> = ({ children, company }) => {
   return (
-    <section className='w-screen h-screen grid grid-cols-5 grid-rows-1'>
-      <section className='col-start-1 col-span-3 grid grid-cols-5 grid-rows-5'>
+    <section className='w-screen h-screen grid grid-cols-1 grid-rows-5 md:grid-cols-5 md:grid-rows-1'>
+      <section className='col-start-1 col-span-full row-start-1 row-end-4 grid grid-cols-5 grid-rows-5 md:col-span-3'>
         {children}
       </section>
       <WebViewer company={company} />
