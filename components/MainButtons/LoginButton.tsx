@@ -47,7 +47,7 @@ const LoginButton: React.FC<Props> = ({ company }) => {
       onMouseEnter={animationHandler}
       onMouseLeave={removeAnimation}
     >
-      <div className='text-2xl font-extrabold'>{companyName}</div>
+      <div className='text-xl font-extrabold md:text-2xl'>{companyName}</div>
       <Link href={companyLink}>
         <button className={`${styles.login} ${customAnimation}`}>Login</button>
       </Link>

@@ -1,8 +1,8 @@
 .container {
   border: 0.5rem solid black;
   border-radius: 1.25rem;
-  font: 2rem;
   padding: 0.25rem 0 0.25rem 2rem;
+  font-size: 1rem;
   text-align: left;
   background: linear-gradient(to right, #00bdcb 50%, #f0f0e2 50%) right;
   background-size: 200%;
@@ -51,7 +51,17 @@
   }
   50% {
     background-color: #f0f0e2;
-    /* #006679 */
     color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0rem 0.75rem;
+    border-radius: 1.25rem;
+    padding: 0.25rem 0 0.25rem 1rem;
+  }
+  .login {
+    padding: 0.25rem 1.25rem;
   }
 }
