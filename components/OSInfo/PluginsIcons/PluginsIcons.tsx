@@ -1,7 +1,7 @@
 import styles from './PluginsIcons.module.css';
 const PluginsIcons = () => {
   return (
-    <svg version='1.1' viewBox='0 0 69 469.2' xmlSpace='preserve'>
+    <svg viewBox='0 0 69 469.2' xmlSpace='preserve'>
       <g id='circle' className={styles.circle}>
         <g>
           <path

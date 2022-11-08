@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <Layout>
       <>
-        <section className='bg-[#A49277] row-start-1 row-end-6 col-start-1 col-end-6 flex flex-col justify-center pb-20 items-center'>
+        <section className='bg-[#A49277] row-start-1 row-end-6 col-start-1 col-end-6 flex flex-col justify-center pb-8 items-center md:pb-20'>
           <div className='w-3/4 flex items-center justify-around'>
             <div className='w-5/12 flex items-center justify-center'>
               <Logo company='upeo'>
                 <Upeo />
               </Logo>
             </div>
-            <div className='pt-14 w-2/4 text-white leading-5 text-lg tracking-widest flex flex-col justify-center items-start'>
+            <div className='text-white pt-4 text-xs leading-1 md:text-lg md:tracking-widest md:leading-5 md:pt-14 md:w-2/4 flex flex-col justify-center items-start'>
               <p>RESTARTING OS VER. 3.2.2</p>
               <p>User ID confirmed</p>
               <p>DATA SWALLOW</p>
