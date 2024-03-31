@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Rampart: ['Manrope', 'sans-serif'],
+      },
+      colors: {
+        upeoBrown: '#A49277',
+        upeoBrown2: '#646464',
+        neucomOrange: '#FF7E00',
+        neucomOrange2: '#FF4400',
+        neucomOrange3: '#FF6A00',
+        neucomOrange4: '#FF5600',
+        hWhite: '#f2f2f2',
+        hBlack: '#2a2a2a',
+      },
       gridTemplateRows: {
         12: 'repeat(12, minmax(0, 1fr))',
       },

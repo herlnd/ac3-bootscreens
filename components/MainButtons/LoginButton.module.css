@@ -1,15 +1,7 @@
 .container {
-  border: 0.5rem solid black;
-  border-radius: 1.25rem;
-  padding: 0.25rem 0 0.25rem 2rem;
-  font-size: 1rem;
-  text-align: left;
   background: linear-gradient(to right, #00bdcb 50%, #f0f0e2 50%) right;
   background-size: 200%;
   transition: 0.6s ease-out;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .container:hover {
@@ -17,17 +9,8 @@
   animation: appear 0.6s ease-out forwards;
 }
 
-.login {
-  height: 125%;
-  padding: 0.25rem 2rem;
-  background-color: black;
-  color: #00bdcb;
-  border-radius: 0 0.5rem 0.5rem 0;
-  font-weight: bolder;
-}
-
 .loginAnimation {
-  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .loginAnimation:hover {
