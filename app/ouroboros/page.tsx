@@ -1,9 +1,11 @@
-import Layout from '../components/Layout/Layout';
-import Logo from '../components/Logo';
-import Ouroboros from '../components/CompaniesLogos/Ouroboros/Ouroboros';
-import OuroborosInfo from '../components/CompaniesLogos/Ouroboros/SystemInfo/OuroborosInfo';
+'use client';
 
-export default function Home() {
+import Layout from '../../components/Layout/Layout';
+import Logo from '../../components/Logo';
+import Ouroboros from '../../components/CompaniesLogos/Ouroboros/Ouroboros';
+import OuroborosInfo from '../../components/CompaniesLogos/Ouroboros/SystemInfo/OuroborosInfo';
+
+export default function OuroborosPage() {
   return (
     <Layout company='ouroboros'>
       <>
@@ -20,4 +22,4 @@ export default function Home() {
       </>
     </Layout>
   );
-}
+} 

@@ -1,3 +1,5 @@
+'use client';
+
 import OrientalComputer from '../components/CompaniesLogos/OrientalComputer/OrientalComputer';
 import LoginButton from '../components/MainButtons/LoginButton';
 
@@ -95,4 +97,4 @@ export default function Home() {
       </section>
     </main>
   );
-}
+} 

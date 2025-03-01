@@ -24,14 +24,10 @@ const Logo: React.FC<Props> = ({ company, children }) => {
       break;
   }
 
-  const loadHandler = () => {
+  useEffect(() => {
     const audio = new Audio(bootSound);
     audio.play();
-  };
-
-  useEffect(() => {
-    loadHandler();
-  });
+  }, [bootSound]);
 
   return <>{children}</>;
 };

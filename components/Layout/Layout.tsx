@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 type Props = {
   children: JSX.Element;
-  company?: string;
+  company: string;
 };
 
 const Layout: React.FC<Props> = ({ children, company }) => {

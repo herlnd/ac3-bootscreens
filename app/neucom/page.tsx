@@ -1,10 +1,12 @@
-import Logo from '../components/Logo';
-import Neucom from '../components/CompaniesLogos/Neucom/Neucom';
-import Layout from '../components/Layout/Layout';
+'use client';
 
-export default function Home() {
+import Logo from '../../components/Logo';
+import Neucom from '../../components/CompaniesLogos/Neucom/Neucom';
+import Layout from '../../components/Layout/Layout';
+
+export default function NeucomPage() {
   return (
-    <Layout>
+    <Layout company='neucom'>
       <>
         <div className='bg-neucomOrange row-start-1 row-end-6 col-start-1'></div>
         <section className='bg-neucomOrange row-start-1 row-end-6 col-start-2 col-span-3 flex flex-col justify-start items-center'>
@@ -30,4 +32,4 @@ export default function Home() {
       </>
     </Layout>
   );
-}
+} 

@@ -1,10 +1,12 @@
-import Layout from '../components/Layout/Layout';
-import Logo from '../components/Logo';
-import Upeo from '../components/CompaniesLogos/Upeo/Upeo';
+'use client';
 
-export default function Home() {
+import Layout from '../../components/Layout/Layout';
+import Logo from '../../components/Logo';
+import Upeo from '../../components/CompaniesLogos/Upeo/Upeo';
+
+export default function UpeoPage() {
   return (
-    <Layout>
+    <Layout company='upeo'>
       <>
         <section className='bg-upeoBrown row-start-1 row-end-6 col-start-1 col-end-6 flex flex-col justify-center pb-8 items-center md:pb-20'>
           <div className='w-3/4 flex items-center justify-around'>
@@ -25,4 +27,4 @@ export default function Home() {
       </>
     </Layout>
   );
-}
+} 

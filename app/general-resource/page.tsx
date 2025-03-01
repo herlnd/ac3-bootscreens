@@ -1,11 +1,13 @@
-import Logo from '../components/Logo';
-import Layout from '../components/Layout/Layout';
-import GeneralResource from '../components/CompaniesLogos/GeneralResource/GeneralResource';
-import Squares from '../components/CompaniesLogos/GeneralResource/SystemInfo/Squares';
+'use client';
 
-export default function Home() {
+import Logo from '../../components/Logo';
+import Layout from '../../components/Layout/Layout';
+import GeneralResource from '../../components/CompaniesLogos/GeneralResource/GeneralResource';
+import Squares from '../../components/CompaniesLogos/GeneralResource/SystemInfo/Squares';
+
+export default function GeneralResourcePage() {
   return (
-    <Layout>
+    <Layout company='general resource'>
       <>
         <div className='bg-[#004765] col-start-1 row-start-1 col-end-6 row-end-6 grid grid-cols-5 grid-rows-12 md:grid-cols-12 md:grid-rows-6'>
           <div className='col-start-1 row-start-1 col-end-5 row-end-10 border-white border-b-2 border-r-2 md:col-end-10 md:row-end-5'></div>
@@ -40,4 +42,4 @@ export default function Home() {
       </>
     </Layout>
   );
-}
+} 
